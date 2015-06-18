@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26BFBF601B33594300A9C478 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFBF5F1B33594300A9C478 /* main.m */; };
+		26BFBF631B33594300A9C478 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFBF621B33594300A9C478 /* AppDelegate.m */; };
+		26BFBF661B33594400A9C478 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFBF651B33594400A9C478 /* GameScene.m */; };
+		26BFBF681B33594400A9C478 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 26BFBF671B33594400A9C478 /* GameScene.sks */; };
+		26BFBF6B1B33594400A9C478 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFBF6A1B33594400A9C478 /* GameViewController.m */; };
+		26BFBF6E1B33594400A9C478 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26BFBF6C1B33594400A9C478 /* Main.storyboard */; };
+		26BFBF701B33594400A9C478 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26BFBF6F1B33594400A9C478 /* Images.xcassets */; };
+		26BFBF731B33594500A9C478 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26BFBF711B33594500A9C478 /* LaunchScreen.xib */; };
+		26BFBF7F1B33594500A9C478 /* BurgerGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFBF7E1B33594500A9C478 /* BurgerGameTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26BFBF791B33594500A9C478 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26BFBF521B33594100A9C478 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26BFBF591B33594200A9C478;
+			remoteInfo = BurgerGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26BFBF5A1B33594300A9C478 /* BurgerGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurgerGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26BFBF5E1B33594300A9C478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26BFBF5F1B33594300A9C478 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26BFBF611B33594300A9C478 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26BFBF621B33594300A9C478 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26BFBF641B33594400A9C478 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		26BFBF651B33594400A9C478 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		26BFBF671B33594400A9C478 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		26BFBF691B33594400A9C478 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		26BFBF6A1B33594400A9C478 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		26BFBF6D1B33594400A9C478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26BFBF6F1B33594400A9C478 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		26BFBF721B33594500A9C478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		26BFBF781B33594500A9C478 /* BurgerGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BurgerGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26BFBF7D1B33594500A9C478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26BFBF7E1B33594500A9C478 /* BurgerGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BurgerGameTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26BFBF571B33594200A9C478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26BFBF751B33594500A9C478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26BFBF511B33594000A9C478 = {
+			isa = PBXGroup;
+			children = (
+				26BFBF5C1B33594300A9C478 /* BurgerGame */,
+				26BFBF7B1B33594500A9C478 /* BurgerGameTests */,
+				26BFBF5B1B33594300A9C478 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26BFBF5B1B33594300A9C478 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26BFBF5A1B33594300A9C478 /* BurgerGame.app */,
+				26BFBF781B33594500A9C478 /* BurgerGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26BFBF5C1B33594300A9C478 /* BurgerGame */ = {
+			isa = PBXGroup;
+			children = (
+				26BFBF611B33594300A9C478 /* AppDelegate.h */,
+				26BFBF621B33594300A9C478 /* AppDelegate.m */,
+				26BFBF641B33594400A9C478 /* GameScene.h */,
+				26BFBF651B33594400A9C478 /* GameScene.m */,
+				26BFBF671B33594400A9C478 /* GameScene.sks */,
+				26BFBF691B33594400A9C478 /* GameViewController.h */,
+				26BFBF6A1B33594400A9C478 /* GameViewController.m */,
+				26BFBF6C1B33594400A9C478 /* Main.storyboard */,
+				26BFBF6F1B33594400A9C478 /* Images.xcassets */,
+				26BFBF711B33594500A9C478 /* LaunchScreen.xib */,
+				26BFBF5D1B33594300A9C478 /* Supporting Files */,
+			);
+			path = BurgerGame;
+			sourceTree = "<group>";
+		};
+		26BFBF5D1B33594300A9C478 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26BFBF5E1B33594300A9C478 /* Info.plist */,
+				26BFBF5F1B33594300A9C478 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26BFBF7B1B33594500A9C478 /* BurgerGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				26BFBF7E1B33594500A9C478 /* BurgerGameTests.m */,
+				26BFBF7C1B33594500A9C478 /* Supporting Files */,
+			);
+			path = BurgerGameTests;
+			sourceTree = "<group>";
+		};
+		26BFBF7C1B33594500A9C478 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26BFBF7D1B33594500A9C478 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26BFBF591B33594200A9C478 /* BurgerGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26BFBF821B33594600A9C478 /* Build configuration list for PBXNativeTarget "BurgerGame" */;
+			buildPhases = (
+				26BFBF561B33594200A9C478 /* Sources */,
+				26BFBF571B33594200A9C478 /* Frameworks */,
+				26BFBF581B33594200A9C478 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BurgerGame;
+			productName = BurgerGame;
+			productReference = 26BFBF5A1B33594300A9C478 /* BurgerGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26BFBF771B33594500A9C478 /* BurgerGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26BFBF851B33594600A9C478 /* Build configuration list for PBXNativeTarget "BurgerGameTests" */;
+			buildPhases = (
+				26BFBF741B33594500A9C478 /* Sources */,
+				26BFBF751B33594500A9C478 /* Frameworks */,
+				26BFBF761B33594500A9C478 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26BFBF7A1B33594500A9C478 /* PBXTargetDependency */,
+			);
+			name = BurgerGameTests;
+			productName = BurgerGameTests;
+			productReference = 26BFBF781B33594500A9C478 /* BurgerGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26BFBF521B33594100A9C478 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = JWFY;
+				TargetAttributes = {
+					26BFBF591B33594200A9C478 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					26BFBF771B33594500A9C478 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 26BFBF591B33594200A9C478;
+					};
+				};
+			};
+			buildConfigurationList = 26BFBF551B33594100A9C478 /* Build configuration list for PBXProject "BurgerGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26BFBF511B33594000A9C478;
+			productRefGroup = 26BFBF5B1B33594300A9C478 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26BFBF591B33594200A9C478 /* BurgerGame */,
+				26BFBF771B33594500A9C478 /* BurgerGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26BFBF581B33594200A9C478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BFBF731B33594500A9C478 /* LaunchScreen.xib in Resources */,
+				26BFBF701B33594400A9C478 /* Images.xcassets in Resources */,
+				26BFBF681B33594400A9C478 /* GameScene.sks in Resources */,
+				26BFBF6E1B33594400A9C478 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26BFBF761B33594500A9C478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26BFBF561B33594200A9C478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BFBF6B1B33594400A9C478 /* GameViewController.m in Sources */,
+				26BFBF631B33594300A9C478 /* AppDelegate.m in Sources */,
+				26BFBF661B33594400A9C478 /* GameScene.m in Sources */,
+				26BFBF601B33594300A9C478 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26BFBF741B33594500A9C478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BFBF7F1B33594500A9C478 /* BurgerGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26BFBF7A1B33594500A9C478 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26BFBF591B33594200A9C478 /* BurgerGame */;
+			targetProxy = 26BFBF791B33594500A9C478 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26BFBF6C1B33594400A9C478 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26BFBF6D1B33594400A9C478 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26BFBF711B33594500A9C478 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26BFBF721B33594500A9C478 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26BFBF801B33594500A9C478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26BFBF811B33594500A9C478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26BFBF831B33594600A9C478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BurgerGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26BFBF841B33594600A9C478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BurgerGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		26BFBF861B33594600A9C478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BurgerGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BurgerGame.app/BurgerGame";
+			};
+			name = Debug;
+		};
+		26BFBF871B33594600A9C478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BurgerGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BurgerGame.app/BurgerGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26BFBF551B33594100A9C478 /* Build configuration list for PBXProject "BurgerGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26BFBF801B33594500A9C478 /* Debug */,
+				26BFBF811B33594500A9C478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26BFBF821B33594600A9C478 /* Build configuration list for PBXNativeTarget "BurgerGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26BFBF831B33594600A9C478 /* Debug */,
+				26BFBF841B33594600A9C478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26BFBF851B33594600A9C478 /* Build configuration list for PBXNativeTarget "BurgerGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26BFBF861B33594600A9C478 /* Debug */,
+				26BFBF871B33594600A9C478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26BFBF521B33594100A9C478 /* Project object */;
+}
