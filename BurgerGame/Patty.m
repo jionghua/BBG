@@ -22,7 +22,7 @@
   return self;
 }
 
-- (void) setdoneness: {
+- (void) setDoneness: {
   [doneness autorelease];
   int cooktimeint = [cooktime intValue];
   if (cooktimeint < 4) {
