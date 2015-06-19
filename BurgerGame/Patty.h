@@ -20,7 +20,7 @@
 - (void) cook;
 */
 @property (assign) BOOL flipped;
-@property (assign) NSString *doneness;
+@property  NSString *doneness;
 @property (readonly) NSString *startime;
 @property (readonly) NSString *cooktime;
 
